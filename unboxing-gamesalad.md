@@ -28,7 +28,7 @@ Actors are objects; Things; **Classes**.  It could be a car, a timer, a banana, 
 Actors have **behaviours** attached to them. These can be executed on a number of triggers. Either when they are spawned, when they are tapped, clicked, triggered by a keystroke or after a timer is run. 
 Behaviours and attributes can be attached to objects both at a 'prototype' level or an 'actor' level. Think of prototype behaviours and attributes as class methods and actor attributes and behaviours as instance methods and variables. Personally, I found drawing comparisons such as this very helpful when getting to grips with GameSalad.
 
-[Some example behaviours]
+![](https://www.evernote.com/shard/s10/sh/093d63e3-73fd-4225-8220-076250911fee/7653f24af19fba0830679ccd7c41abb5/deep/0/Screenshot%2017/06/2013%2009:35.png)
 
 ### Scenes
 Scenes are where it all comes together. In a traditional [MVC](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) app, this would be the 'view' of your application. Scenes themselves can't have behaviours, they simply spawn actors which then act on the scene. Scenes can however, have attributes which persist for as long as the scene exists. Handy for keeping track of the score or the attributes of actors if they need to be readable or writable by other actors in the same scene.
