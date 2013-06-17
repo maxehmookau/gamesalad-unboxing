@@ -13,6 +13,7 @@ As an iOS developer used to working with applications at a code level, I initial
 
 ## Getting down to business
 GameSalad has four main entities to wrap you head around:
+
 1. Actors
 2. Behaviours
 3. Scenes
@@ -21,7 +22,7 @@ GameSalad has four main entities to wrap you head around:
 ### Actors
 Actors are objects; Things; **Classes**.  It could be a car, a timer, a banana, a box containing the current score or, as requested by the kids we worked with, a bagel. They are 'actors' because they are the objects that perform on scenes. All actors have attributes and behaviours. They all come with some default attributes such as size, rotation etc. but all support custom attributes too of varying data types.
 
-[Image of Actors Screen]
+!()[https://www.evernote.com/shard/s10/sh/43f58b9f-7755-49b1-994b-748a7c2ca5c3/6f03db15824900d4f99abea3319b1c1e/deep/0/Screenshot%2017/06/2013%2009:32.png]
 
 ### Behaviours
 Actors have **behaviours** attached to them. These can be executed on a number of triggers. Either when they are spawned, when they are tapped, clicked, triggered by a keystroke or after a timer is run. 
