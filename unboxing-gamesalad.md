@@ -36,7 +36,7 @@ Scenes are where it all comes together. In a traditional [MVC](http://en.wikiped
 ### Tables
 Tables are where Gamesalad gets its power. Tables allow you to store arbitrary data in a spreadsheet form. Because each cell in the spreadsheet can be accessed from its (x,y) position on the table, we can store information to be accessed algorithmically.
 For example, it's perfect for storing the questions and answers in a simple quiz game. Each question would consist of a single row in the table. The first column could be the question, the second would be the correct answer followed by a number of incorrect answers. By saving a 'current_question' attribute in the game, each time a question is answered, we can easily move on to the next question by referencing the next row in the questions table.
-[screenshot example]
+![](https://www.evernote.com/shard/s10/sh/209d4273-d8e1-47ad-8b06-143a2214a46d/6297da61acc07b9d790f6808178ba22e/deep/0/Screenshot%2017/06/2013%2009:36.png)
 
 ### Should I?
 I'm still of the opinion that real production-level game development should be done using more professional tools. Even 2D game design is probably better suited to a specialised library such as cocos2d. But if you're just starting out in the world of programming and making a game is your dream, GameSalad is an excellent place to start. The entry-level version contains almost all of the features and is completely free. A pro version is available for USD$299 and includes opportunities for revenue generation and support for Apple's Game Centre.
